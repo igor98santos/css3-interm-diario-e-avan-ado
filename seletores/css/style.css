@@ -22,4 +22,15 @@ li>a {
     color: red;
     text-decoration: none;
 }
-***seletor descedent (não é da disney)***/
+***seletor descedent (não é da disney)***
+p a {
+    color: chartreuse;
+}
+********seletor irmão adjascente*********
+h1+p{
+    color: red;
+}
+********seletor de irmão  geral *******/
+h1~p{
+    color: pink;
+}
