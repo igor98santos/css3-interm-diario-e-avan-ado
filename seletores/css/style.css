@@ -1,0 +1,25 @@
+/**********seletor universal***********
+* {
+    border: 1px red solid;
+}
+********seletor de texto***********
+h1{
+    color: green;
+}
+********seletor de classe*********
+.verde{
+    color: green;
+}
+p.verde{
+    color: green;
+} */
+/*********seletor  de id**********
+#cabecalho {
+    border: 1px solid blue;
+}
+/************seletor filho *********
+li>a {
+    color: red;
+    text-decoration: none;
+}
+***seletor descedent (não é da disney)***/
