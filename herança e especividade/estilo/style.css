@@ -1,0 +1,14 @@
+/****herança e especividade***/
+*{/*4*/
+    color: red;
+}
+h1{/*3*/
+    color: blue;
+}
+H1.verde{/*2*/
+    color: green;
+}
+
+h1#amarelo{
+    color: yellow;/* 1*/
+}
