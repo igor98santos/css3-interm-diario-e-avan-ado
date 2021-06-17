@@ -4,7 +4,7 @@ body{
     background: #f2f2f2;
 }
 #container{
-    width: 720px;
+    width: 85%;
     margin: 0 auto ;
     background: #fff;
 }
@@ -16,15 +16,15 @@ body{
 
 }
 #conteudo{
-    width: 520px;
+    width: 74%;/*75%*/
     float: right ;
 }
 #conteudo-principal{
-    width: 320px;
+    width: 64%;/*320px*/
     float: left;
 }
 #conteudo-secundario{
-    width: 180px;
+    width: 34;/*180px*/
     float: right;
     background: #d1d1d1;
 }
@@ -36,11 +36,15 @@ body{
     padding-right: 20px;
 }
 #navegacao {
-    width: 180px;
+    width: 23%;/*180px*/
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
     background: #d1d1d1;
+}
+
+#navegacao ul {
+    list-style: none;
 }
 
 #rodape{
