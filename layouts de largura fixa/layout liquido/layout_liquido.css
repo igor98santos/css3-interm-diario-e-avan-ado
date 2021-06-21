@@ -1,0 +1,65 @@
+/***layouts***/
+body{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: #f2f2f2;
+}
+#container{
+    width: 85%;
+    margin: 0 auto ;
+    background: #fff url(../img/coluna.png) repeat-y left top;
+    min-width: 720px;
+    max-width: 1280px;
+}
+#marca{
+    height: 200px;
+    background: #9e9e9e url(../img/cabecalho2.jpg) no-repeat center;  
+    text-align: center;
+    line-height: 100px;
+
+}
+/*#imagen{
+    width: 80%;
+    overflow: hidden; esse overflow:hidden sere para cortar a imagen na div 
+}*/
+#conteudo{
+    width: 74%;/*75%*/
+    float: right ;
+} 
+#conteudo-principal{
+    width: 64%; /*320px*/
+    float: left;
+}
+img.img-noticia {
+    width: 98%;
+    padding: 2%;
+    min
+}
+.conteudo-secundario{
+    width: 34%;/*180px*/
+    float: right;
+    background: #d1d1d1;
+}
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navegacao {
+    width: 23%;/*180px*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background: #d1d1d1;*/
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#rodape{
+    clear: both;
+    background:  #c4c4c4;
+    padding: 5px;
+}
