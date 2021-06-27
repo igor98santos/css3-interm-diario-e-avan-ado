@@ -10,6 +10,46 @@
 <body>
     <h2>estilizando formularios</h2>
 
-   
+    <form action="">
+        <fieldset>
+            <legend>detalhes de contato</legend>
+
+            <div>
+                <label for="nome">nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label for="email">email</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="url">URL</label>
+                <input type="text" name="url" id="url">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>comentarios</legend>
+            <div>
+                <label for="mensagem">mensagem</label>
+                <textarea name="mensagen" id="mensagem"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>lembrar de min</legend>
+           <div>
+            <label>
+                <input type="radio" name="lembrar" id="sim">sim
+            </label>
+           </div>
+
+           <label>
+            <input type="radio" name="lembrar" id="nao">não
+        </label>
+        </fieldset>
+    </form>
 </body>
 </html>
