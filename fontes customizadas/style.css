@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Pokemon hollow ";
+    src: url("fontes/PokemonHollowNormal.woff");
+}
+
+h1{
+    font-size: 6em;
+    font-family: "Pokemon hollow ";
+}
+
+@font-face {
+    font-family: "Pokemon normal";
+    src: url("fontes/PokemonSolidNormal.woff");
+}
+
+
+@font-face {
+    font-family: "mummific";
+    src: url("fontes/Mummified-Regular.woff");
+}
+
+h2{
+    font-size: 6em;
+    font-family: "pokemon normal";
+}
+
+h3{
+    font-size: 5em;
+    font-family: "mummific";
+}
