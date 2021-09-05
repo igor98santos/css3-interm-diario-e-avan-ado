@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tags de input</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="">
+        <!--novos inputs e atributos HTML 5-->
+        <label for="nome">nome</label>
+        <input type="text" name="nome" id="nome" required="required">
+        <br> <br>
+        <!--email-->
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" required="required">
+        <br><br>
+        <!--numero-->
+        <label for="numero">numero</label>
+        <input type="number" name="numero" id="numero" required="required" min="1" max="10" >
+        <br><br>
+
+        <!--url-->
+        <label for="url">url</label>
+        <input type="url" name="url" id="url" required="required"  placeholder="igor é lindo" >
+        <br><br>
+
+        <!--pesquisa-->
+        <label for="pesquisa">pesquisa</label>
+        <input type="search" name="pesquisa" id="url" required="required"  placeholder="igor é extraodinario" >
+        <br><br>
+        
+        <!--range-->
+        <label for="range">range</label>
+        <input type="range" name="range" id="range" required="required"  placeholder="igor é muito legal" min="1" max="20" value="1">
+        <br> <br>
+
+        <!--data-->
+        <label for="data">data</label>
+        <input type="date" name="data" id="data" required="required" >
+        <br><br>
+        
+        <!--data-->
+        <label for="cor">cor</label>
+        <input type="color" name="cor" id="cor" required="required" >
+        <br><br>
+
+        <input type="submit" name="" value="enviar">
+
+
+    </form>
+    
+</body>
+</html>
